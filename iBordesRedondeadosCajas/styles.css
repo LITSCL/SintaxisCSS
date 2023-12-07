@@ -1,0 +1,24 @@
+* {
+    margin-left: 10px;
+    color: black;
+}
+
+.caja {
+    text-align: center;
+    background-color: red;
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+}
+
+#caja1 {
+    border-radius: 50px; /* Esta propiedad permite redondear todos los lados del contenedor. */
+}
+
+#caja2 {
+    border-radius: 50px 50px 10px 10px; /* En este caso se esta redondeando de tamaño distinto cada lado del contenedor. */
+}
+
+#caja3 {
+    border-radius: 1000px;
+}

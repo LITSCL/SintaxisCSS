@@ -1,0 +1,6 @@
+/* Un pseudo selector afecta a una etiqueta completa. */
+
+div p:first-child { /* Este pseudo selector modifica solamente la primera etiqueta p encontrada en un div (Solamente la modifica si es una etiqueta p el primer elemento del contenedor). */
+    font-style: italic;
+    color: blue;
+}

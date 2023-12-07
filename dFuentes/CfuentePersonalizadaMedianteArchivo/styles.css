@@ -1,0 +1,8 @@
+@font-face { /* @font-face nos permite importar fuentes externas. */
+    font-family: BitCustom; /* Aca se le esta añadiendo el nombre a la nueva fuente. */
+    src: url(fonts/04B_30__.TTF); /* Aca se esta importando la fuente (Utilizando su ubicación). */
+}
+
+h1 {
+    font-family: BitCustom;
+}

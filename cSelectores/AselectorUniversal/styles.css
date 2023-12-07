@@ -1,0 +1,4 @@
+* { /* Al utilizar * se estan seleccionando todos los elementos del documento HTML. */
+    font-family: Tahoma; /* Aca se esta cambiando la fuente de letra para todo el documento HTML. */
+    margin: 0px; /* Aca se le esta quitando los margenes a todo el documento HTML. */
+}

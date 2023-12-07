@@ -1,0 +1,52 @@
+@bgcolor: lightblue;
+@b: body;
+@fuente: Arial;
+
+@{b} {
+    background: @bgcolor;
+}
+
+h1 {
+    font-family: @fuente;
+}
+
+.informacion {
+    ul {
+        a {
+            color: green;
+            font-size: 18px;
+        }
+    }
+}
+
+.sombras(@size) {
+    box-shadow: 0px 0px @size black;
+    text-shadow: 0px 0px 5px gray;
+}
+
+.informacion {
+    .sombras(5px);
+}
+
+h1 {
+    font-size: 30px + 7px;
+}
+
+.textoNegro (@value) when (@value=negro) {
+    color: black;
+}
+
+h1 {
+    color: blue;
+    .textoNegro(negro);
+}
+
+//Bucles (For).
+.loop(@contador) when (@contador > 0) { //Este bucle se repite mientras el contador sea mayor que 0 (El contador se entrega por parámetro).
+    .loop((@contador - 1)); //A cada iteración el contador disminuye en 1 (Lo que se hace aquí es llamar nuevamente al "Mixin" con el mismo valor del parámetro anterior pero -1).
+    height: ((900px/2) * @contador); //A cada iteración se cambia el valor de la propiedad "height" (Se puede verificar en styles.css).
+}
+
+.informacion {
+    .loop(5);
+}

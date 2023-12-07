@@ -1,0 +1,21 @@
+@bgcolor: lightblue;
+@b: body;
+@fuente: Arial;
+
+@{b} {
+    background: @bgcolor;
+}
+
+h1 {
+    font-family: @fuente;
+}
+
+//Anidación de elementos (Es otra forma de seleccionar elementos HTML).
+.informacion {
+    ul {
+        a {
+            color: green;
+            font-size: 18px;
+        }
+    }
+}

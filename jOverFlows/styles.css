@@ -1,0 +1,18 @@
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+#barraLateral {
+    width: 30%;
+    min-height: 500px;
+    max-height: 850px;
+    overflow: scroll; /* Esta propiedad permite que cuando el texto supere el largo máximo se genere un "scroll" lateral para que de todas formas se pueda leer todo el texto. */
+    border: 1px solid red;
+    float: left;
+}
+
+#barraLateral > h2 {
+    text-align: center;
+    padding: 10px;
+}

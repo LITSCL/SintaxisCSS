@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+#layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+/* La propiedad flex-grow indica que cantidad de espacio puede utilizar un elemento. */
+.caja {
+    flex-grow: 1; /* En esta línea se esta indicando que se cambie el tamaño de las cajas y que utilizen todo el ancho del contenedor. */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 4px solid #222;
+    margin: 10px;
+    background: gray;
+}
+
+.red {
+    flex-grow: 1; /* Mientras mayor sea el valor mayor será el ancho de la caja. */
+    background: red;
+}
+
+.green {
+    flex-grow: 2;
+    background: green;
+}
+
+.blue {
+    flex-grow: 3;
+    background: blue;
+}
+
+.orange {
+    flex-grow: 4;
+    background: orange;
+}

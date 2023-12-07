@@ -1,0 +1,16 @@
+/* Un pseudo selector dinámico afecta a una etiqueta completa. */
+
+a:hover { /* Este pseudo selector dinámico modifica la etiqueta a cuando el usuario coloca el cursor encima de la etiqueta. */
+    background-color: red;
+    color: yellow;
+}
+
+a:active { /* Este pseudo selector dinámico modifica la etiqueta a cuando el usuario hace click en la etiqueta. */
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+}
+
+input:focus { /* Este pseudo selector dinámico modifica los input cuando el usuario les hace focus.  */
+    border: red 2px dotted;
+}

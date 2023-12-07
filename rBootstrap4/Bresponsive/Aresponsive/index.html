@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no"> <!-- Este metadato es necesario para que el responsive se vea bien en los navegadores. -->
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container border"> <!-- La clase "container" crea un contenedor centrado. -->
+        <div class="row">
+            <section id="contenido" class="col-12">
+                <div class="row">
+                    <section id="productos" class="col-9 border">
+                        <h2>Productos</h2>
+                        <hr/>
+                        <div class="items">
+                            <div class="row">
+                                <div class="item col bg-primary m-2">
+                                    Procucto
+                                </div>
+                                <div class="item col bg-dark m-2">
+                                    Procucto
+                                </div>
+                                <div class="item col bg-danger m-2">
+                                    Procucto
+                                </div>
+                            </div>
+
+                            <div class="row mt-1">
+                                <div class="item col-12 col-sm-6 col-md-3 col-lg-6 bg-primary"> <!-- La clase "col-12" indica la cantidad de columnas que se muestran cuando la pantalla sea extra small, la clase "col-sm-6" inidca la cantidad de columnas que utilizará la caja cuando la pantalla sea small (>=576px), la clase "col-md-3" indica las columnas que utilizará la caja cuando la pantalla se medium (>=768px) y la clase "col-lg-6" indica la cantidad de columnas que utilizará la caja cuando la pantalla sea large (>=992px). -->
+                                    Procucto
+                                </div>
+                                <div class="item col-12 col-sm-6 col-md-3 col-lg-6 bg-dark">
+                                    Procucto
+                                </div>
+                                <div class="item col-12 col-sm-6 col-md-3 col-lg-12 bg-danger">
+                                    Procucto
+                                </div>
+                                <div class="item col-12 col-sm-6 col-md-3 col-lg-12 bg-success">
+                                    Procucto
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <aside class="col-3 border">
+                        <h2>Barra Lateral</h2>
+
+                        <div class="lateral row bg-light align-items-start">
+                            <div class="col-4 bg-primary order-3">
+                                1
+                            </div>
+                            <div class="col-4 bg-success order-1">
+                                2
+                            </div>
+                            <div class="col-4 bg-warning order-2">
+                                3
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script type="text/javascript" src="jquery-3.5.0/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="bootstrap-4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

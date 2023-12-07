@@ -1,0 +1,26 @@
+* { /* Aquí se estan eliminando los margenes y rellenos (De esta forma las cajas y el contenido no sufren del espaciado que viene por default). */
+    margin: 0px;
+    padding: 0px;
+}
+
+#cajas {
+    max-width: 960px; /* Al colocar este tamaño al section, siempre habra un máximo de 3 cajas por fila. */
+    margin-left: 10px;
+    border: 2px solid green;
+}
+
+.caja {
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    margin: 20px;
+    padding: 10px;
+    background-color: red;
+    display: block; /* La propiedad display: block; es necesaria para que se pueda utilizar la propiedad float. */
+    float: left; /* Esta propiedad permite posicionar los contenedores a la izquierda (De esta forma se logra que los contenedores no se coloquen un bajo del otro). */
+}
+
+.clearfix {
+    float: none; /* Aca se esta indicando que el contenedor no se puede flotar. */
+    clear: both; /* La propiedad clear: both; limpia los contenedores flotados que hay arriba (Limpia ambos lados, izquierda y derecha). */
+}

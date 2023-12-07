@@ -1,0 +1,19 @@
+/* Colores del sistema. */
+h1 {
+    color: green;
+}
+
+/* Colores hexadecimales. */
+h2 {
+    color: #12e8db;
+}
+
+/* Colores RGB. */
+h3 {
+    color: rgb(201, 189, 22);
+}
+
+/* Colores RGBA (El ultimo parametro genera transparencia). */
+h4 {
+    color: rgba(201, 189, 22,0.5);
+}

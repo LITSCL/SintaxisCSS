@@ -1,0 +1,19 @@
+#boton {
+    display: block;
+    padding: 20px;
+    background-color: green;
+    color: white;
+    width: 150px;
+    text-align: center;
+    font-family: Verdana;
+    font-weight: bold;
+    text-decoration: none;
+    border: 5px solid rgb(25, 77, 30);
+    transition: all 1s; /* Esta propiedad permite que al ejecutarse un pseudoclase tarde un tiempo establecido (En este caso se indica que se cambien todos los parámetros contenidos en la psudoclase en 1 segundo). */
+}
+
+#boton:hover {
+    border-radius: 15px;
+    background: orangered;
+    border: 5px solid red;
+}

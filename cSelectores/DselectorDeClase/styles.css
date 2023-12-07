@@ -1,0 +1,5 @@
+.parrafo { /* Aca se estan seleccionando todos los elementos con la clase parrafo. */
+    font-style: italic; /* Aca se esta cambiando la fuente de las letras. */
+    text-decoration: underline; /* Aca se esta añadiendo un subrayado el texto. */
+    font-weight: bold; /* Se dela la letra en "Negrita". */
+}

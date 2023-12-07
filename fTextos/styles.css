@@ -1,0 +1,19 @@
+#caja {
+    border: 5px solid black;
+}
+
+h1 {
+    color: green; /* Esta propiedad permite cambiar el color del texto. */
+    font-family: Arial; /* Esta propiedad permite cambiar el tipo de fuente del texto. */
+    text-align: center; /* Esta propiedad permite alinear el texto dentro del contenedor. */
+    line-height: 90px; /* Esta propiedad permite cambiar la altura que hay entre las líneas de texto. */
+    text-transform: uppercase; /* Esta propiedad permite cambiar la forma del texto (En este caso el texto se esta conviertiendo a mayusculas). */
+    text-decoration: underline; /* Esta propiedad permite colarle decoración al texto (En esta caso se esta subrrayando el texto). */
+
+}
+
+p {
+    text-indent: 15px; /* Esta propiedad permite generar una identación (Sangría) en el texto (En este caso solo se esta identanto los parrafos). */
+    word-spacing: 10px; /* Esta propiedad permite aumentar o disminuir el espacio que hay entre las palabas. */
+    letter-spacing: 5px; /* Esta propiedad permite aumentar o disminuir el espacio que hay entre las letras. */
+}

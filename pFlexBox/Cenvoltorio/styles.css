@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+#layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Esta propiedad permite que el contenido de la caja con "display: flex;" no se salga (Basicamente el contenido se comporta como float, cuando el contenido interno supere el ancho, se reposisiona abajo). */
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.caja {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 4px solid #222;
+    margin: 10px;
+    background: gray;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+.orange {
+    background: orange;
+}

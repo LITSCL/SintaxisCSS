@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Utilidades disponibles en Bootstrap 4</h1>
+    <div class="container" style="height: 500px;">
+
+        <div class="alert alert-success"> <!-- L a clase "alert" permite definir una alerta y la calse "alert-success" permite asignar un color a dicha alerta. -->
+            <strong>Increible!</strong> Te has registrado correctamente :)
+        </div>
+
+        <div class="alert alert-danger">
+            <strong>Maldición!</strong> No te pudiste registrar :(
+        </div>
+
+        <div class="alert alert-warning alert-dismissible"> <!-- La clase "alert-dismissible" permite que la alerta se pueda cerrar. -->
+            <strong>En uso!</strong> El correo ya esta siendo utilizado :(
+            <button type="button" class="close" data-dismiss="alert" aria-label="close"> <!-- Este es el botón que permite cerrar la alerta. -->
+                <span>&times;</span> <!-- Este es el icono del botón. -->
+            </button>
+        </div>
+
+        <div class="alert alert-warning alert-dismissible fade show"> <!-- La clase "fade" y la clase "show" permiten que la alerta se cierre suavemente. -->
+            <strong>En uso!</strong> El correo ya esta siendo utilizado :(
+            <button type="button" class="close" data-dismiss="alert" aria-label="close">
+                <span>&times;</span>
+            </button>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="jquery-3.5.0/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="bootstrap-4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

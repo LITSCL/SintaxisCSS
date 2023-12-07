@@ -1,0 +1,11 @@
+input[type="text"] { /* Aca se estan seleccionando los input que tengan el atributo type="text". */
+    padding: 10px; /* Aca se esta incrementando el relleno. */
+    background: red; /* Aca se esta añadiendo un fondo rojo */
+}
+
+input[type="submit"] { /* Aca se estan seleccionando los input que tengan el atributo type="submit". */
+    background: green;
+    color: yellow;
+    text-transform: uppercase; /* El texto del botón se deja en mayusculas. */
+    cursor: pointer; /* Cuando se pasa el cursor por encima se cambia la forma del cursor. */
+}

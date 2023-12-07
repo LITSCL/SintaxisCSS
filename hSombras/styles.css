@@ -1,0 +1,26 @@
+* {
+    margin-left: 10px;
+    color: black;
+}
+
+.caja {
+    text-align: center;
+    background-color: red;
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+}
+
+.caja h1 {
+    text-shadow: -10px -10px 10px black; /* Esta propiedad permite añadir sombras "El primer argumento indica el eje "X", el segundo el eje "Y", el tercero indica el difuminado y el ultimo indica el color de la sombra. */
+}
+
+/* Esta caja tiene sombra "Exterior". */
+#caja1 {
+    box-shadow: -10px -10px 10px black; /* Esta propiedad permite añadir sombras "El primer argumento indica el eje "X", el segundo el eje "Y", el tercero indica el difuminado y el ultimo indica el color de la sombra. */
+}
+
+/* Esta caja tiene sombra "Interior". */
+#caja2 {
+    box-shadow: -10px -10px 10px black inset; /* Esta propiedad permite añadir sombras "El primer argumento indica el eje "X", el segundo el eje "Y", el tercero indica el difuminado y el ultimo indica el color de la sombra. */
+}

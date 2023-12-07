@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+/* Cuando se quiera trabajar con display flex, todos los elementos deben estar contenido dentro de una caja (En este caso el <section> con id=layout contiene todos los otros elementos de la página). */
+#layout {
+    display: flex; /* Esto es similar a un float: left; (El contenido dentro de esta caja tiene un comportamiento similar a un float: left;, pero el contenido de abajo no se flota, no es necesario limpiar flotados, ya que los flotados solo afectan a los elementos contenidos dentro de la caja con display: flex;). */
+  /*display: inline-flex;*/ /* Esta propiedad permite que el ancho de la caja cambie según la cantidad de contenido que haya. */
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.caja {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 4px solid #222;
+    margin: 10px;
+    background: gray;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+.orange {
+    background: orange;
+}

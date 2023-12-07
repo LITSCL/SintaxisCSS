@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.caja {
+    width: 45%;
+    height: 350px;
+    background-color: red;
+    border: 3px solid blue;
+    color: white;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cajaLibre {
+    position: absolute; /* Aca estamos indicando que todos los contenedores con esta clase tienen un posisionamiento absoluto. */
+    width: 100px;
+    height: 100px;
+}
+
+.cajaLibre1 {
+    border: 3px solid black;
+    background-color: green;
+    top: 10%; /* Con esta propiedad indicamos la posision desde arriba del contenedor. */
+    left: 30%; /* Con esta propiedad indicamos la posision la izquierda del contenedor. */
+    z-index: 2; /* Mientras mayor sea el valor de la propiedad "z-index", la capa esta por encima de las de menor valor.*/
+}
+
+.cajaLibre2 {
+    border: 3px solid black;
+    background-color: blue;
+    top: 13%;
+    left: 33%;
+    z-index: 1;
+}

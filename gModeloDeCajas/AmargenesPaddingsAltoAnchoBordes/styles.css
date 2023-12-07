@@ -1,0 +1,22 @@
+* { /* Aquí se estan eliminando los margenes y rellenos (De esta forma las cajas y el contenido no sufren del espaciado que viene por default). */
+    margin: 0px;
+    padding: 0px;
+}
+
+#caja1 {
+    width: 250px; /* Esta propiedad permite cambiar el ancho del contenedor (Es recomendado utilizar "%" para generar responsividad). */
+    height: 250px; /* Esta propiedad permite cambiar el alto del contenedor (Es recomendado utilizar "%" para generar responsividad). */
+    border: 5px solid black; /* Esta propiedad permite colocar un borde al contenedor. */
+    margin: 20px; /* Esta propiedad permite generar un margen izquierdo,superior e inferior del contenedor (También se podría cambiar todos los margenes de la siguiente forma: "margin: 20px,20px,20px,20px;"). */
+    padding: 10px; /* Esta propiedad permite generar un relleno en todos los lados dentro del contenedor (Osea el contenido dentro de la caja va a estar separado de los bordes del contenedor) */
+    background-color: red;
+}
+
+#caja2 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    margin-left: 50px; /* Esta propiedad permite cambiar el margen izquierdo del contenedor (Tambien existe: "margin-top", "margin-right", "margin-bottom"). */
+    padding-top: 30px; /* Esta propiedad permite generar un relleno en la parte de arriba del contenedor (Osea el contenido dentro de la caja va a estar separado del borde de arriba del conetenedor). */
+    background-color: green;
+}

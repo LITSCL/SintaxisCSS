@@ -1,0 +1,4 @@
+body {
+    --rojo: red; /* Esto es una variable en CSS. */
+    background-color: var(--rojo); /* Aquí se esta asignando a la propiedad el valor de la variable. */
+}

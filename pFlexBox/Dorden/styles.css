@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+#layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.caja {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 4px solid #222;
+    margin: 10px;
+    background: gray;
+}
+
+.red {
+    order: 4; /* Esta propiedad permite cambiar el orden de los elementos dentro de la caja flexbox, mientras menor el valor de la propiedad, más a la iquierda estará el elemento. */
+    background: red;
+}
+
+.green {
+    order: 2;
+    background: green;
+}
+
+.blue {
+    order: 1;
+    background: blue;
+}
+
+.orange {
+    order: 3;
+    background: orange;
+}

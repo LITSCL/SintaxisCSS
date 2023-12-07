@@ -1,0 +1,17 @@
+a { /* Aca se le estan añadiendo estilos a todos los elementos a. */
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+}
+
+#menu a { /* Este es solo un ejemplo para notar la diferencia. */
+    font-size: 18px;
+    color: red;
+    text-decoration: none;
+}
+
+#menu2 > li > a { /* Aca se esta utilizando selector hijo (Solo se seleccionan elementos a existentes después del ul seleccionado, se ignora el otro ul). */
+    font-size: 18px;
+    color: red;
+    text-decoration: none;
+}

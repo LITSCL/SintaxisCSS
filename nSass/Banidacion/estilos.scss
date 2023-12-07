@@ -1,0 +1,43 @@
+$fuente-tipica: sans-serif, Helvetica, Arial;
+$color-fondo: #ccc;
+$color-letra: red;
+$color-secundario:rgb(200, 0, 0);
+
+body {
+  background-color: $color-fondo;
+}
+
+h1 {
+  color: $color-letra;
+  font-family: $fuente-tipica;
+}
+
+p {
+  color: $color-secundario;
+}
+
+//Anidación de elementos (Es otra forma de seleccionar elementos HTML).
+.caja {
+  border: 1px solid black;
+  width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  padding: 10px;
+
+  h1 {
+    color: blue;
+  }
+
+  p {
+    color: green;
+  }
+
+  .info {
+    font-size: 10px;
+
+    .autor { //Aquí ocurre un anidado dentro de otro anidado.
+      font-size: 15px;
+      color: orange;
+    }
+  }
+}

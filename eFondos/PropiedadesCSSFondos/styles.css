@@ -1,0 +1,20 @@
+body {
+    background-image: url(Imagenes/Fondo.jpg); /* Esta propiedad permite colocar una imagen de fondo a un contenedor. */
+    background-size: 100% 100%; /* Esta propiedad permite cambiar el tamaño que ocupa la imagen en fondo (Al colocar 100% dos veces se logra que la imagen se estire a ancho y largo y de esa forma lograr responsividad con imagenes). */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Esta propiedad permite que al hacer "Scroll" con el mouse solo se mueva el texto y no el fondo. */
+
+}
+#caja {
+    background-color: green; /* Esta propiedad permite cambiar el color de fondo de un contenedor. */
+    border: 5px solid black; /* Esta propiedad permite colocar un borde a un contenedor. */
+}
+
+h2 {
+    background-image: url(Imagenes/Patron.jpg);
+    border: 5px solid green;
+}
+
+p {
+    color: blue;
+}

@@ -1,0 +1,31 @@
+ul li:first-child { /* Esta pseudo clase permite seleccionar el primer item del li. */
+    color: purple;
+}
+
+ul li:last-child { /* Esta pseudo clase permite seleccionar el ultimo item del li. */
+    color: blue;
+}
+
+ul li:nth-child(3) { /* Esta pseudo clase permite seleccionar el item del li que se entrega por parámetro. */
+    color: green;
+}
+
+#enlace:link { /* Estos cambios solo son válidos cuando el usuario nunca haya hecho click en el enlace. */
+    color: red;
+}
+
+#enlace:visited { /* Estos cambios solo son válidos cuando el usuario si haya hecho click en el enlace. */
+    color: orange;
+}
+
+#enlace:hover { /* Estos cambios solo son válidos cuando se pase el cursor por encima del enlace. */
+    color: yellow;
+}
+
+#enlace:active { /* Estos cambios solo son válidos mientras se esté pulsando el enlace. */
+    font-size: 20px;
+}
+
+input[type="text"]:focus { /* Estos cambios solo son válidos mientras se ete haciendo "focus" en el input de tipo texto. */
+    border: 1px dashed red;
+}

@@ -1,0 +1,31 @@
+.caja {
+    width: 300px;
+    height: 300px;
+    background-color: lightseagreen;
+    color: white;
+    border: 5px solid black;
+    text-align: center;
+    line-height: 235px;;
+    animation-name: desplazamiento; /* Aca se esta añadiendo el "Keyframe" (Basicamente se esta añadiendo la animación). */
+    animation-duration: 10s; /* Aca se esta añadiendo la duración del "Keyframe". */
+    animation-timing-function: linear; /* Aca se esta indicando que la animación siempre se mueve a la misma velocidad. */
+    animation-iteration-count: infinite; /* Aca se esta añadiendo la cantidad de veces que se repite el "Keyframe" (En este caso se repite infinitamente). */
+}
+
+/* Los "keyframes" permiten controlar los pasos intermedios de una secuencia de animación (Mientras mas "Keyframes", más fluida es la animación). */
+@keyframes desplazamiento { /* En este caso la palabra "desplazamiento" es el nombre de identificación de keyframe. */
+    0% {
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+    50% {
+        border-radius: 1000px;
+        margin-left: 1200px;
+        transform: rotate(360deg);
+        background-color: green;
+    }
+    100% {
+        margin-left: 0;
+        transform: rotate(0deg);
+    }
+}

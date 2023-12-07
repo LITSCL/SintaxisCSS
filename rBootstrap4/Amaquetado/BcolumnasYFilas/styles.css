@@ -1,0 +1,9 @@
+#menu-final {
+    height: 50px;
+}
+
+#menu-final ul {
+    text-decoration: none;
+    list-style: none;
+    line-height: 50px;
+}

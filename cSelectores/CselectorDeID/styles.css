@@ -1,0 +1,3 @@
+#descripcion { /* Aca se esta seleccionando un elemento (div) utilizando su ID. */
+    border: 5px solid black; /* Aca se esta añadiendo un borde de 5px, el borde es sólido y es de color negro. */
+}

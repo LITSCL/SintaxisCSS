@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <button id="popover1" type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" title="Mi titulo" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">  <!-- La parte que dice data-placement="top" indica por donde saldrá el popover. -->
+        Popover on top
+    </button>
+
+    <button id="popover2" type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" title="Mi titulo" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+        Popover on right
+    </button>
+
+    <button id="popover3" type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" title="Mi titulo" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+        Popover on bottom
+    </button>
+
+    <button id="popover4" type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" title="Mi titulo" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+        Popover on left
+    </button>
+
+    <script type="text/javascript" src="jquery-3.5.0/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="popper-1.10.0/popper.min.js"></script>
+    <script type="text/javascript" src="bootstrap-4.5.0/js/bootstrap.min.js"></script>
+
+    <script>
+        $("#popover1").popover(); //Esta instrucción permite desplegar el Popover (Utiliza la librería Popper).
+        $("#popover2").popover();
+        $("#popover3").popover();
+        $("#popover4").popover();
+    </script>
+</body>
+</html>

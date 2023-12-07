@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+/* Por defecto la propiedad flex-direction es row. */
+#layout {
+    display: flex;
+    flex-direction: column; /* Esta propiedad permite cambiar el orden y la orientación en que se muestra el contenido dentro de la caja. También existen otros valores para la propiedad como: row-reverse o column-reverse. */
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.caja {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 4px solid #222;
+    margin: 10px;
+    background: gray;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+.orange {
+    background: orange;
+}

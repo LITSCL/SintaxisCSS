@@ -1,0 +1,82 @@
+$fuente-tipica: sans-serif, Helvetica, Arial;
+$color-fondo: #ccc;
+$color-letra: red;
+$color-secundario: rgb(200, 0, 0);
+
+body {
+    background-color: $color-fondo;
+}
+
+h1 {
+    color: $color-letra;
+    font-family: $fuente-tipica;
+}
+
+p {
+    color: $color-secundario;
+}
+
+.caja {
+    border: 1px solid black;
+    width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 10px;
+
+    h1 {
+        color: blue;
+    }
+
+    p {
+        color: green;
+    }
+
+    .info {
+        font-size: 10px;
+
+        .autor {
+            font-size: 15px;
+            color: orange;
+        }
+    }
+}
+
+@mixin crearBordes($color, $size, $shadow) {
+    border: 5px solid $color;
+    border-radius: $size;
+    box-shadow: 0px 0px 5px $shadow;
+}
+
+.caja {
+    @include crearBordes(red, 10px, black);
+}
+
+.listado {
+    @include crearBordes(green, 5px, yellow);
+}
+
+//Clase que hereda propiedades.
+%alert-normal {
+    margin-top: 10px;
+    border: 1px solid gray;
+    background: orange;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.alert {
+    @extend %alert-normal; //Aquí se produce la herencia (Se están heredando todas las propiedades de la clase "%alert-normal").
+}
+
+.alert-danger {
+    @extend %alert-normal;
+    color: red;
+    background: yellow;
+}
+
+.alert-success {
+    @extend %alert-normal;
+    color: green;
+    background: white;
+}

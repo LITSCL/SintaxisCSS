@@ -1,0 +1,12 @@
+.item {
+    height: 150px;
+}
+
+.lateral {
+    height: 550px;
+}
+
+.lateral > div {
+    text-align: center;
+    height: 50px;
+}

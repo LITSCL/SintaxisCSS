@@ -1,0 +1,14 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif; /*Esta propiedad permite cambiar la fuente de letra, en caso de que la primera fuente no exista se toma la segunda, si la segunda no existe se toma la tercera.*/
+}
+
+p {
+    font-family: Impact;
+    font-size: 40px; /*Esta propiedad permite cambiar el tamaño de la fuente.*/
+}
+
+h3 {
+    font-weight: bold; /*Esta propiedad permite cambiar el "peso" de la fuente (Se utiliza para colocar la fuente en "negrita").*/
+    font-style: italic; /*Esta propiedad permite cambiar el "estilo" de la fuente (Al colocar Italic la fuene se pone en cursiva).*/
+    text-transform: uppercase; /*Esta propiedad permite cambiar la "forma" de la fuente (En este caso se esta pasando el texto a mayuscula).*/
+}

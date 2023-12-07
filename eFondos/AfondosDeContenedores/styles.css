@@ -1,0 +1,18 @@
+body {
+    background-image: url(Imagenes/Patron1.png); /* Esta propiedad permite colocar una imagen de fondo a un contenedor. */
+    /*background-repeat: repeat;*/ /* Esta propiedad permite establecer si la imagen de fondo se repite o no, (Tambien existe el argumento "repeat-x", "repeat-y" y "no-repeat") */
+}
+
+#caja {
+    background-color: green; /* Esta propiedad permite cambiar el color de fondo de un contenedor. */
+    border: 5px solid black; /* Esta propiedad permite colocar un borde a un contenedor. */
+}
+
+h2 {
+    background-image: url(Imagenes/Patron2.jpg);
+    border: 5px solid green;
+}
+
+p {
+    color: blue;
+}

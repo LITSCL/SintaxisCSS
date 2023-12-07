@@ -1,0 +1,16 @@
+h1 { /* Al Escribir alguna etiqueta queda seleccionada y se puede modificar mediante CSS (Afecta a todas las etiquetas del mismo tipo). */
+    background: red; /* Aca se esta añadiendo un fondo de color rojo. */
+    color: green; /* Aca se esta cambiando el color de la letra. */
+}
+
+a { /* Al Escribir alguna etiqueta queda seleccionada y se puede modificar mediante CSS (Afecta a todas las etiquetas del mismo tipo). */
+    font-size: 20px; /* Se cambia el tamaño de la letra. */
+    color: yellow; /* Se cambia el color de la letra. */
+    text-decoration: none; /* se le quita la decoración (El subrayado). */
+}
+
+footer a { /* Aca se estan seleccionando todas las etiquetas a dentro del footer. */
+    font-size: 40px; /* Se cambia el tamaño de la letra. */
+    color: blue; /* Se cambia el color de la letra. */
+    text-decoration: none; /* se le quita la decoración (El subrayado). */
+}

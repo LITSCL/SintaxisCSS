@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+#layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.caja {
+    flex-basis: calc((100% / 3) - 68px); /* Aquí se esta calculando el ancho de cada caja. */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 4px solid #222;
+    margin: 10px;
+    background: gray;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+.orange {
+    flex-basis: 100%;
+    background: orange;
+}

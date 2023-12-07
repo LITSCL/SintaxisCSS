@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    border: 3px solid orangered;
+}
+
+.layout .caja {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    border: 4px solid #222;
+}
+
+/* Mientras mas columnas, más sera el valor máximo que se deberá entregar a la propiedad "grid-column-end" para que utilize el 100%. */
+.layout .red {
+    grid-column-start: 1; /* Esta propiedad permite definir desde donde se quiere comenzar a expandir una caja (Horizontalmente) (La cual esta contenida en una caja con display: grid;). */
+    grid-column-end: 5; /* Esta propiedad permite definir hasta donde se quiere comenzar a expandir una caja (Horizontalmente) (La cual esta contenida en una caja con display: grid;). */
+    background: red;
+}
+
+.layout .green {
+    background: green;
+}
+
+.layout .blue {
+    background: blue;
+}
+
+.layout .pink {
+    background: pink;
+}
+
+.layout .gray {
+    background: gray;
+}
+
+.layout .orange {
+    background: orange;
+    grid-column:  1 / 5; /* Esta es otra forma de definir la expansión de columnas. */
+}

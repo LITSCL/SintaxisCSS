@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    border: 3px solid orangered;
+}
+
+.layout .caja {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    border: 4px solid #222;
+}
+
+
+.layout .red {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background: red;
+}
+
+.layout .green {
+    grid-row-start: 2;  /* Esta propiedad permite definir desde donde se quiere comenzar a expandir una caja (verticalmente) (La cual esta contenida en una caja con display: grid;). */
+    grid-row-end: 4; /* Esta propiedad permite definir hasta donde se quiere comenzar a expandir una caja (verticalmente) (La cual esta contenida en una caja con display: grid;). */
+    background: green;
+}
+
+.layout .blue {
+    background: blue;
+}
+
+.layout .pink {
+    background: pink;
+}
+
+.layout .gray {
+    background: gray;
+}
+
+.layout .orange {
+    background: orange;
+    grid-column:  1 / 5;
+}

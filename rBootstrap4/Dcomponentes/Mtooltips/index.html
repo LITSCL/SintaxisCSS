@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <br>
+    <br>
+
+    <button id="toolTip1" type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Texto de prueba"> <!-- La parte que dice data-placement="top" indica por donde saldrá el tooltip. -->
+        Tooltip on top
+    </button>
+    <button id="toolTip2" type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Texto de prueba">
+        Tooltip on right
+    </button>
+    <button id="toolTip3" type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Texto de prueba">
+        Tooltip on bottom
+    </button>
+    <button id="toolTip4" type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="Texto de prueba">
+        Tooltip on left
+    </button>
+
+    <script type="text/javascript" src="jquery-3.5.0/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="popper-1.10.0/popper.min.js"></script>
+    <script type="text/javascript" src="bootstrap-4.5.0/js/bootstrap.min.js"></script>
+
+    <script>
+        $("#toolTip1").tooltip(); //Esta instrucción permite desplegar el ToolTip (Utiliza la librería Popper).
+        $("#toolTip2").tooltip();
+        $("#toolTip3").tooltip();
+        $("#toolTip4").tooltip();
+    </script>
+</body>
+</html>

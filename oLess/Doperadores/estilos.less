@@ -1,0 +1,34 @@
+@bgcolor: lightblue;
+@b: body;
+@fuente: Arial;
+
+@{b} {
+    background: @bgcolor;
+}
+
+h1{
+    font-family: @fuente;
+}
+
+.informacion {
+    ul {
+        a {
+            color: green;
+            font-size: 18px;
+        }
+    }
+}
+
+.sombras(@size) {
+    box-shadow: 0px 0px @size black;
+    text-shadow: 0px 0px 5px gray;
+}
+
+.informacion {
+    .sombras(5px);
+}
+
+//Operadores.
+h1 {
+    font-size: 30px + 7px;
+}
